@@ -1,0 +1,26 @@
+{
+  "name": "steve-kaufman.github.io",
+  "version": "1.0.0",
+  "description": "My portfolio website",
+  "main": "index.js",
+  "dependencies": {
+    "mustache": "^4.0.1"
+  },
+  "devDependencies": {
+    "serve": "^11.3.0"
+  },
+  "scripts": {
+    "serve": "serve public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steve-kaufman/steve-kaufman.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/steve-kaufman/steve-kaufman.github.io/issues"
+  },
+  "homepage": "https://steve-kaufman.github.io"
+}

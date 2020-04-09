@@ -26,5 +26,7 @@
     "url": "https://github.com/steve-kaufman/steve-kaufman.github.io/issues"
   },
   "homepage": "https://steve-kaufman.github.io",
-  "dependencies": {}
+  "dependencies": {
+    "acorn": "^7.1.1"
+  }
 }

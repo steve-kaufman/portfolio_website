@@ -1,0 +1,18 @@
+header
+  //- divs
+  .menu-btn
+    .btn-line
+    .btn-line
+    .btn-line
+  nav.menu
+    ul.nav-list
+      for page in pages
+        - var className = "nav-item" + (page.display == title ? " active" : "")
+        li(class=className)
+          a.nav-link(href=page.url)=page.display
+      //- li.nav-item
+      //-   a.nav-link(href="/about") About
+      //- li.nav-item
+      //-   a.nav-link(href="/work") My Work
+      //- li.nav-item
+      //-   a.nav-link(href="/contact") Contact
